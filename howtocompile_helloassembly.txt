@@ -1,4 +1,5 @@
-# To compile 64 bit file.asm on Mac OSX (10.11.5)
-# $ nasm -f macho64 -o helloassembly.o helloassembly.asm
-# $ ld helloassembly.o -o helloassembly
-# $ ./helloassembly
+To compile 64 bit file.asm on Mac OSX (10.11.5)
+Open terminal, navigate to directory (cd /Path/To/Direcroty) and enter...
+$ nasm -f macho64 -o helloassembly.o helloassembly.asm
+$ ld helloassembly.o -o helloassembly
+$ ./helloassembly
