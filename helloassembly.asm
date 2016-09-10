@@ -1,3 +1,9 @@
+;To compile and link 64 bit helloassembly.asm on Mac OSX (10.11.5)
+;Open terminal, navigate to directory (cd /Path/To/Direcroty) and enter...
+;$ nasm -f macho64 -o helloassembly.o helloassembly.asm
+;$ ld helloassembly.o -o helloassembly
+;$ ./helloassembly
+
 global start
 
 section .text
